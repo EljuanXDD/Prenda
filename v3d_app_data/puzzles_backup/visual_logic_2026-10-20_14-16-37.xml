@@ -1,0 +1,33 @@
+<xml xmlns="https://www.soft8soft.com/puzzles/xml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="Main" type="CommonTab" active="true" scrollx="19.999999999999773" scrolly="20.00000000000057" scale="0.9">
+    <block type="whenClicked" id="%Eq-`=IK|s6`wjhwm|t+" inline="false" x="50" y="50">
+      <mutation adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="-N{O~TMEVWLx3,g-fmU7">
+          <field name="FIELDNAME">Cube.001</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="lookAt" id="KDKAZ?~V6fT_r%bzjo|a">
+          <value name="LOOKAT">
+            <shadow type="objectList" id="Cik3AH7OTbWG@R3siLYv">
+              <field name="FIELDNAME">cam 1</field>
+            </shadow>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="Xtyo-?rhwao0zjh9~lQQ">
+              <field name="NUM">1</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+    </block>
+  </tab>
+  <editorsettings viewport-x="626.4" viewport-y="37" viewport-w="429.6" viewport-h="365" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>

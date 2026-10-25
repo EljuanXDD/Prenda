@@ -1,0 +1,76 @@
+<xml xmlns="https://www.soft8soft.com/puzzles/xml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
+  <tab name="Main" type="CommonTab" active="true" scrollx="-33.80001831054699" scrolly="76.00001525878963" scale="0.9">
+    <block type="whenClicked" id="%Eq-`=IK|s6`wjhwm|t+" inline="false" x="50" y="50">
+      <mutation adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+      <field name="X_RAY">FALSE</field>
+      <field name="DOUBLE_CLICK">FALSE</field>
+      <field name="LEFT_BUTTON">TRUE</field>
+      <field name="MIDDLE_BUTTON">TRUE</field>
+      <field name="RIGHT_BUTTON">TRUE</field>
+      <value name="VALUE">
+        <shadow type="objectList" id="-N{O~TMEVWLx3,g-fmU7">
+          <field name="FIELDNAME">cubo 1</field>
+        </shadow>
+      </value>
+      <statement name="DO">
+        <block type="tweenCameraExt" id="SZ8``xgK0afqt`LYn8;[">
+          <mutation whenfinishedslot="false"></mutation>
+          <field name="MOVEMENT_TYPE">SPHERICAL</field>
+          <value name="POSITION">
+            <block type="objectList" id="6R2h-nK?!!RN0j9PGO~I">
+              <field name="FIELDNAME">cam 1</field>
+            </block>
+          </value>
+          <value name="LOOKAT">
+            <block type="objectList" id="s]A$b[^fT$ClchR~$?lJ">
+              <field name="FIELDNAME">tripo_node_ed4d1945-2955-4579-8fc9-dbac1724a094</field>
+            </block>
+          </value>
+          <value name="DURATION">
+            <shadow type="math_number" id="7|.T@oGAyC|?Kp#^FBBk">
+              <field name="NUM">1</field>
+            </shadow>
+          </value>
+        </block>
+      </statement>
+      <next>
+        <block type="whenClicked" id="}#2#tzW23j:k6/#/wqS;" inline="false">
+          <mutation adveventoptions="false" enableifmissed="false" useid="false"></mutation>
+          <field name="X_RAY">FALSE</field>
+          <field name="DOUBLE_CLICK">FALSE</field>
+          <field name="LEFT_BUTTON">TRUE</field>
+          <field name="MIDDLE_BUTTON">TRUE</field>
+          <field name="RIGHT_BUTTON">TRUE</field>
+          <value name="VALUE">
+            <shadow type="objectList" id="d)*Z+3VBUhI,0Ia*g}ss">
+              <field name="FIELDNAME">cubo 2</field>
+            </shadow>
+          </value>
+          <statement name="DO">
+            <block type="tweenCameraExt" id="c~Y_1a@)liiqb`xbIDI|">
+              <mutation whenfinishedslot="false"></mutation>
+              <field name="MOVEMENT_TYPE">SPHERICAL</field>
+              <value name="POSITION">
+                <block type="objectList" id="}?jQP3Q]n0vs_Q|wAD-?">
+                  <field name="FIELDNAME">cam 1</field>
+                </block>
+              </value>
+              <value name="LOOKAT">
+                <block type="objectList" id="VrJwFFlkpZ/^:)LY1Z$,">
+                  <field name="FIELDNAME">tripo_node_ed4d1945-2955-4579-8fc9-dbac1724a094</field>
+                </block>
+              </value>
+              <value name="DURATION">
+                <shadow type="math_number" id="HuV`4nsYarJ+zde_jfm)">
+                  <field name="NUM">1</field>
+                </shadow>
+              </value>
+            </block>
+          </statement>
+        </block>
+      </next>
+    </block>
+  </tab>
+  <editorsettings viewport-x="1108.0000366210938" viewport-y="29" viewport-w="429.6" viewport-h="365" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
